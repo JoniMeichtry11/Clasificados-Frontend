@@ -26,8 +26,8 @@ Para instalar y configurar el proyecto, sigue estos pasos:
 
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/usuario/proyecto-clasificados.git
-   cd proyecto-clasificados
+   git clone https://github.com/JoniMeichtry11/Clasificados-Frontend.git
+   cd Clasificados-Frontend
 
 2. Instala las dependencias del proyecto ejecutando:
 
