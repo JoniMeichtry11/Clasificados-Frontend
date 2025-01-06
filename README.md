@@ -1,59 +1,42 @@
-# FrontendClasificados
+# Proyecto Frontend de Clasificados
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Este proyecto es una aplicación frontend desarrollada en Angular para la gestión de clasificados en línea. Permite a los usuarios buscar, filtrar y publicar anuncios clasificados de manera sencilla e intuitiva.
 
-## Development server
+## Tecnologías Utilizadas
+- **Angular**: Versión 19.0.6  
+- **Node.js**: Versión 20.16.0  
+- **Tailwind CSS**: Para estilos modernos y responsivos.
 
-To start a local development server, run:
+## Características Principales
+- **Búsqueda avanzada**: Encuentra anuncios según palabras clave, categorías o ubicación.  
+- **Publicación de anuncios**: Interfaz simple para que los usuarios publiquen sus clasificados.  
+- **Filtros dinámicos**: Filtra los resultados según las necesidades del usuario.  
+- **Responsive Design**: Optimizado para dispositivos móviles y pantallas grandes.  
 
-```bash
+## Requisitos Previos
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
+1. **Node.js**: Versión 20.16.0 o superior.  
+2. **Angular CLI**: Instálalo globalmente con:  
+   ```bash
+   npm install -g @angular/cli
+
+## Instalación y Configuración
+
+Para instalar y configurar el proyecto, sigue estos pasos:
+
+1. Clona este repositorio:  
+   ```bash
+   git clone https://github.com/usuario/proyecto-clasificados.git
+   cd proyecto-clasificados
+
+2. Instala las dependencias del proyecto ejecutando:
+
+  npm install
+
+3. Inicia el servidor de desarrollo con el siguiente comando:
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4.Una vez que el servidor esté corriendo, abre tu navegador y dirígete a http://localhost:4200 para ver la aplicación en acción.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+(Si el servidor está funcionando, es importante levantarlo primero y luego levantar el frontend)
